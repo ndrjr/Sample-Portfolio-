@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio</title>
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- home section -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi! It's Me</h3>
+                <h1>Derllinraj N</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>The required message sdkfjgsdkfj sdkfjdshfkjdh sdkfjhsdkfjh skdjfhskdjfh kjhwekjewrh</p>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+                <a href="#" class="btn">Download Resume</a>
+            </div>
+            <div class="home-img">
+                <img src="home2.png" alt="">
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="Profile3.png" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>FullStack Developer</h3>
+                <p>sakdsjfkjgbkfdjbvkdjbvkfdajbvkjdsbvfkjdbkfvjkfvjdbkfgjbdkfvjb
+                    askfjvkjdbvkdajbvkjdabkvjabkfdsjvbkfdjvbakjfdbvkjdafbvkjabdkfvj
+                    erhgoirhjbzksjfdgljgkjwbkfgjbfovnoknvolkndflkneo
+                    slkfngvlrkfoderkiing melkjskfgjkwfdgjksjfdvngirepofd
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <!-- Education section -->
+        <section class="education" id="education">
+            <h2 class="heading">My <span>Academic Background</span></h2>
+            <div class="education-container">
+                <div class="education-box">
+                    <i class='bx bxs-school'></i>
+                    <h3>Schooling</h3>
+                    <p>Class 10: Scored 492/500 and stood first in among all the CBSE schools in Thiruvallur. In Class 12, scored 94.8% in the AISCE Exam</p>
+
+                </div>
+                <div class="education-box">
+                    <i class='bx bxs-graduation'></i>
+                    <h3>University</h3>
+                    <p>Bachelor of Technology(B.Tech) in Electronics and Communication Engineering from National Institute of Technology(NIT), Tiruchirapalli. </p>
+                    
+                </div>
+                <div class="education-box">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Skills</h3>
+                    <p>Python, DBMS(SQL), C/C++, HTML, CSS, JAVASCRIPT, FIGMA, REACT, MICROSOFT OFFICE TOOLS, ANDROID STUDIO(BASICS), ML(BASICS)</p>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio section -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">My <span>Projects</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="simon2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Simon Game</h4>
+                        <p> A simple Web implementation of famous Simon-guessing game.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="figma.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Figma Web Design</h4>
+                        <p>
+                            A compilation of Figma files showcasing my UI/UX design expertise across a diverse range of landing pages.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="chat.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Realtime Chatting</h4>
+                        <p> A web development project focused on creating a real-time chatting application incorporating distinctive features.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="coding.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Coding Experience</h4>
+                        <p> Link to the coding platforms where I actively solve problems.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <form id="contactform" onsubmit="return postToGoogle();">
+                <div class="input-box">
+                    <input type="text" name="entry.2005620554" data-name="name" id="name" placeholder="Full Name" required>
+                    <input type="email" name="entry.1045781291" data-name="email" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="entry.1065046570" data-name="number" id="number" placeholder="Mobile" required>
+                    <input type="text" name="entry.1166974658" data-name="subject" id="subject" placeholder="Email Subject" required>
+                </div>
+                <textarea name="entry.839337160" id="message" data-name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+
+            </form>
+        </section>
+
+        <!-- footer design -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Derllinraj | All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-icontop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <!-- scroll -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- typedjs -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- JS -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+        <script>
+            function postToGoogle() {
+                var field1 = $("#name").val();
+                var field2 = $("#email").val();
+                var field3 = $("#number").val();
+                var field4 = $("#subject").val();
+                var field5 = $("#message").val();
+
+                $.ajax({
+                    url: "https://docs.google.com/forms/u/1/d/e/1FAIpQLSenNZF8YfOQva3AV3-ECEOb4TaZLI0rK8y5ucXFUqKryAIEyA/formResponse",
+          
+            //add your google form generated numbers below which are also the 'names' of your inputs     
+                    data: {
+                        "entry.2005620554": field1,
+                        "entry.1045781291": field2,
+                        "entry.1065046570": field3,
+                        "entry.1166974658": field4,
+                        "entry.839337160": field5
+                    },
+                    type: "POST",
+                    dataType: "xml",
+                    success: function (d) {
+                        $('#contactform').trigger('reset');
+                    },
+                    error: function (x, y, z) {
+                        $('#contactform').trigger('reset');
+                    }
+                });
+                return false;
+            }
+        </script>
+        <script src="script.js"></script>
+    </body>
+
+
+</html>
